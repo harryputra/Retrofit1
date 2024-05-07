@@ -46,15 +46,10 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation ("com.google.code.gson:gson:2.8.4")
-    implementation ("com.squareup.retrofit2:retrofit:2.3.0")
-    implementation ("com.squareup.retrofit2:converter-gson:2.3.0")
-    implementation ("com.squareup.okhttp3:logging-interceptor:3.8.0")
-    implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation (libs.gson.v2101)
+    implementation (libs.retrofit)
+    implementation (libs.retrofit2.gson)
+    implementation (libs.okhttp3)
+    implementation (libs.picasso)
 
-//    implementation(libs.gson)
-//    implementation(libs.retrofit2)
-//    implementation(libs.retrofit2.gson)
-//    implementation(libs.okhttp3)
-//    implementation(libs.picasso)
 }
